@@ -8,10 +8,27 @@
         *{
             margin: 0;
         }
+        #block{
+            /*width: ;*/
+            color: red;
+            font-size: 480px;
+            font-weight: bolder;
+            text-align: center;
+            line-height: 480px;
+            /*background-color: yellow;*/
+            position: absolute;
+            top: 10%;
+            left: 10%;
+        }
     </style>
 </head>
 <body>
-    <div style="position: fixed;color: red;font-size: 520px;font-weight: bolder;left: 52px;">BUG</div>
-    <a style="position:fixed;background-color:blue;width:20px;height:20px" href="http://rug.pythonanywhere.com/"></a>
+    <div id="block">BUG</div>
+    <script>
+        var width_ = window.innerWidth;
+        var height_ = window.innerHeight;
+        document.getElementById('block').style.width = String(parseInt(width_*0.8)) + 'px';
+        document.getElementById('block').style.height = String(parseInt(height_*0.8)) + 'px';
+    </script>
 </body>
 </html>
