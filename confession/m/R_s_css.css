@@ -101,6 +101,7 @@
     /*bottom: 3px;*/
 }
 #h{
+    color: white;
     width: 90%;
     height: 1px;
     background-color: black;
@@ -109,6 +110,7 @@
     left: 5%;
 }
 #a{
+    color: white;
     /*font-size: 18px;*/
     position: relative;
     top: 50px;
