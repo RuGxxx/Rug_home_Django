@@ -10,7 +10,17 @@ console.log(' - - - - - - 您好 - - - - - - ');
 })();
 
 
-function on_f() {
-    document.getElementById('text_').value = '';
-}
+// function on_f() {
+//     document.getElementById('text_').value = '';
+// }
 
+(function () {
+    var fd_inp = document.getElementById('text_');
+    fd_inp.onfocus = function () {
+        fd_inp.value = '';
+        mou_over();
+    }
+    fd_inp.onblur = function () {
+        mou_out();
+    }
+})();
