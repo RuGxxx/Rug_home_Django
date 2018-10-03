@@ -12,16 +12,16 @@
     </style>
 </head>
 <body>
-    <img src="../bg.jpg" style="position: fixed;width: 100%;">
+    <img src="../../bg.jpg" style="position: fixed;width: 100%;">
     <div id="all_block">
         <div class="place_"></div>
         <div id="title_">???</div>
         <div class="place_"></div>
         <div id="form_">
-            <form>
-                <input id="form_content_1_" class="form_" placeholder="想说些什么呢~">
+            <form action="http://rug.pythonanywhere.com/w_floor" method="post">
+                <input id="form_content_1_" class="form_" name="content" placeholder="想说些什么呢~">
                 <span class="spa">------</span>
-                <input id="form_content_2_" class="form_" placeholder="昵称">
+                <input id="form_content_2_" class="form_" name="name" placeholder="昵称">
                 <input id="sub" type="submit" value="发布">
                 <span id="not_s">husdasnk~~~</span>
             </form>
