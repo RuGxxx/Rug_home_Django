@@ -34,12 +34,15 @@
     left: 25%;
 }
 .bbbb{
-    width: 90%;
-    height: 1px;
-    background-color: black;
+    width: 60%;
+    height: 30px;
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
     position: relative;
     top: 300px;
-    left: 5%;
+    left: 20%;
+    text-align: center;
+    border-radius: 30px;
 }
 .blos{
     width: 80%;
