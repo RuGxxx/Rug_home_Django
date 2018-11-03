@@ -23,3 +23,6 @@ function blos_1() {
 function opssss(data) {
     window.open(data);
 }
+function bds() {
+    window.open('https://www.baidu.com/')
+}
