@@ -15,10 +15,12 @@
 <body>
     <div class="gd">
         <div class="bk">
-            <div class="tttt">Navigation</div>
+            <div class="tttt" onmouseover="mou_over()" onmouseout="mou_out()" title="滚动通知~">Navigation
+                <!--<div class="mkmkm"></div>-->
+            </div>
             <div class="vvvv"></div>
             <div class="blos">
-                <div class="imgs ims_1" onclick="blos_1()">图片</div>
+                <div class="imgs ims_1" onclick="blos_1()" title="图片网">图片</div>
                 <!--<div class="imgs ims_2">娱乐</div>-->
             </div>
             <button id="bd_k" class="bbbb" title="百度一下咯~" onclick="bds()">百度官网</button>
@@ -28,6 +30,8 @@
     <div id="vbs_1">
         <div id="xcv">×</div>
     </div>
+    <div id="top_s"></div>
     <script src="lo.js"></script>
+    <script src="notice.js"></script>
 </body>
 </html>
