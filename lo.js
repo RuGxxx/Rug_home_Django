@@ -26,3 +26,70 @@ function opssss(data) {
 function bds() {
     window.open('https://www.baidu.com/')
 }
+
+function bloc_over() {
+    var sdsf = document.getElementById('autos');
+    sdsf.style.display = "none";
+}
+
+function bloc_out() {
+    var sdsf = document.getElementById('autos');
+    sdsf.style.display = "block";
+    document.getElementById('autos').style.opacity = 0.25;
+    document.getElementById('autos').style.left = "1060px";
+    sdsf.innerText = '455664313@qq.com'
+    fcs();
+}
+
+function fcs() {
+    ups = 0;
+    lefs = 1064;
+    function fc_1() {
+        ups += 0.05
+        lefs -= 1;
+        document.getElementById('autos').style.opacity = ups;
+        document.getElementById('autos').style.left = String(lefs) + "px";
+        if (ups <= 1) {
+            setTimeout(fc_1,30)
+        }
+    }
+    fc_1();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ---------------------------------------------------------------------------------
+// 我是菜鸟 不要搞我呀 谢谢
