@@ -1,4 +1,4 @@
-﻿
+
 (function () {
     document.getElementById('top_s').style.height = String(26) + 'px';
     document.getElementById('top_s').style.fontSize = String(18) + 'px';
