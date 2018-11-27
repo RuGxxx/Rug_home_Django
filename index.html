@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title> Cloc - 导航 </title>
+    <title> C - 导航 </title>
     <link rel="icon" href="logo.ico">
     <link rel="stylesheet" type="text/css" href="lo.css">
     <style>
@@ -11,9 +11,10 @@
             padding: 0;
         }
     </style>
+    <script src="notice.js"></script>
 </head>
 <body>
-    <div class="gd">
+    <div class="gd" onclick="bloc_over()">
         <div class="bk">
             <div class="tttt" onmouseover="mou_over()" onmouseout="mou_out()" title="滚动通知~">Navigation
                 <!--<div class="mkmkm"></div>-->
@@ -24,6 +25,9 @@
                 <!--<div class="imgs ims_2">娱乐</div>-->
             </div>
             <button id="bd_k" class="bbbb" title="百度一下咯~" onclick="bds()">百度官网</button>
+            <h6 class="faad" title="反馈" onmouseover="bloc_out()">联系作者</h6>
+            <div id="autos" title="发送邮件就行 - 谢谢~"></div>
+            <h6 class="sdaas" style="width: 160px">如有侵权 - 请联系我!!!</h6>
         </div>
     </div>
     <div id="mkkk"></div>
