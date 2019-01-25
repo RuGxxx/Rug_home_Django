@@ -14,11 +14,23 @@
 
 function blos_1() {
     var texttt = document.getElementById('vbs_1')
-    texttt.innerHTML =  '<div class="mnbssss" onclick="opssss(\'https://www.bealaity.xyz\')">主页</div>\n' +
+    texttt.innerHTML =  '<div class="mnbssss" onclick="opssss(\'http://www.58pic.com/\')">千图网</div>\n' +
                         '<div class="mnbssss" onclick="opssss(\'http://www.nipic.com/\')">昵图网</div>\n'
     document.getElementById('vbs_1').style.display = 'block';
     document.getElementById('mkkk').style.display = 'block';
 }
+
+function blos_5() {
+    var texttt = document.getElementById('vbs_1')
+    texttt.innerHTML =  '<div class="mnbssss" onclick="opssss(\'http://app.xunjiepdf.com/\')">在线文件转换</div>\n' +
+                        '<div class="mnbssss" onclick="opssss(\'http://www.nicetool.net/\')">在线工具大全</div>\n' +
+                        '<div class="mnbssss" onclick="opssss(\'http://pandownload.com/\')">百度网盘不限速</div>\n' +
+                        '<div class="mnbssss" onclick="opssss(\'http://lcoc.top/\')">蓝调视频解析</div>\n'
+    document.getElementById('vbs_1').style.display = 'block';
+    document.getElementById('mkkk').style.display = 'block';
+}
+
+
 
 function opssss(data) {
     window.open(data);
