@@ -49,7 +49,7 @@ function bloc_out() {
     sdsf.style.display = "block";
     document.getElementById('autos').style.opacity = 0.25;
     document.getElementById('autos').style.left = "1060px";
-    sdsf.innerText = '455664313@qq.com'
+    sdsf.innerText = 'alaity@qq.com'
     fcs();
 }
 
