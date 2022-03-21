@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2022-03-21T01:58:22.396Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" version="17.1.3" etag="AqXyv1DsSz5nU3usiFBD" type="github"><diagram id="qkPAkUZ-Rbg7wclYJv8J">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-21T02:14:02.760Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="24eSsTeB9L34o_sJhEsR" version="17.1.3" type="github">
+  <diagram id="qkPAkUZ-Rbg7wclYJv8J" name="第 1 页">
+    <mxGraphModel dx="965" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a813Bwmb-4uM_FGLuMR0-2" value="右上角menu按钮" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="10" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a813Bwmb-4uM_FGLuMR0-4" value="列表渲染" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;labelBackgroundColor=none;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a813Bwmb-4uM_FGLuMR0-5" value="表单填写" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="290" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a813Bwmb-4uM_FGLuMR0-6" value="类表单详情渲染" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="430" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a813Bwmb-4uM_FGLuMR0-8" value="刷条形码" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="660" y="40" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a813Bwmb-4uM_FGLuMR0-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="a813Bwmb-4uM_FGLuMR0-10" target="a813Bwmb-4uM_FGLuMR0-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a813Bwmb-4uM_FGLuMR0-10" value="打印" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a813Bwmb-4uM_FGLuMR0-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="a813Bwmb-4uM_FGLuMR0-11" target="a813Bwmb-4uM_FGLuMR0-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a813Bwmb-4uM_FGLuMR0-11" value="首序工单" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="220" y="210" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a813Bwmb-4uM_FGLuMR0-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="a813Bwmb-4uM_FGLuMR0-12" target="a813Bwmb-4uM_FGLuMR0-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a813Bwmb-4uM_FGLuMR0-12" value="工单详情" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="334" y="210" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a813Bwmb-4uM_FGLuMR0-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="a813Bwmb-4uM_FGLuMR0-13" target="a813Bwmb-4uM_FGLuMR0-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a813Bwmb-4uM_FGLuMR0-13" value="刷卡" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="440" y="210" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a813Bwmb-4uM_FGLuMR0-15" value="刷卡" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="570" y="40" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a813Bwmb-4uM_FGLuMR0-17" value="刷条形码" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="540" y="210" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
