@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-24T09:15:55.169Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="K8a_EhA082REr4ulKafp" version="17.2.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-03-24T09:19:39.240Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="lROljPpIDhb2Ks-MonNn" version="17.2.1" type="github" pages="5">
   <diagram id="qkPAkUZ-Rbg7wclYJv8J" name="第 1 页">
     <mxGraphModel dx="965" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -432,6 +432,9 @@
         </mxCell>
         <mxCell id="1hivEhsLthRTMSdC_n10-6" value="档次风格和经济" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="60" y="380" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="1hivEhsLthRTMSdC_n10-7" value="&lt;span&gt;每种组件&lt;/span&gt;&lt;br&gt;点击确认功能" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="650" y="140" width="160" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
